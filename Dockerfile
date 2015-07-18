@@ -19,8 +19,8 @@ RUN curl -SLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-
 
 CMD [ "node" ]
 
-#ADD start.sh /tmp/
+ADD start.sh /tmp/
 
-#RUN chmod +x /tmp/start.sh
+RUN chmod +x /tmp/start.sh
 
-#CMD ./tmp/start.sh
+CMD ./tmp/start.sh
