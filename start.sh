@@ -1,11 +1,11 @@
 cd /tmp
 
 # try to remove the repo if it already exists
-rm -rf node-js-sample; true
+rm -rf atendimento; true
 
-git clone https://github.com/heroku/node-js-sample.git
+git clone https://github.com/vyctorbh/atendimento.git
 
-cd node-js-sample
+cd atendimento
 
 npm install
 
