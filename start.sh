@@ -1,4 +1,4 @@
-cd /tmp
+cd /srv/www/
 
 # try to remove the repo if it already exists
 rm -rf atendimento; true
